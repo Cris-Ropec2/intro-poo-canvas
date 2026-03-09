@@ -1,0 +1,45 @@
+/* Configuración General */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilo para los Canvas */
+.canvas-render {
+    border-radius: 8px;
+    max-width: 100%; /* Hace que el canvas sea responsivo */
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: crosshair;
+}
+
+.canvas-render:hover {
+    transform: scale(1.02);
+}
+
+/* Contenedor de canvas con fondo suave */
+.bg-light-soft {
+    background-color: #fdfdfd;
+    min-height: 250px;
+}
+
+/* Estilo de las Cards */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Ajustes para Navbar */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* Footer links o textos */
+footer p {
+    font-size: 0.9rem;
+    color: #bbb;
+}
