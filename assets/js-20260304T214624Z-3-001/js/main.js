@@ -84,10 +84,10 @@ let randomX = Math.random() * (canvasRandom.width - (randomRadius * 2)) + random
 
 let randomY = Math.random() * (canvasRandom.height - (randomRadius * 2)) + randomRadius;
 
-let RGBBorde = "rgb (" + (Math.random()*360)+ ","+ (Math.random()*360)+","+(Math.random()*360) +")";
-let RGBFondo = "rgb (" + (Math.random()*360)+ ","+ (Math.random()*360)+","+(Math.random()*360) +")";
+  let RGBBorde = "rgb(" + (Math.random() * 360) + "," + (Math.random() * 360) + "," + (Math.random() * 360) + ")";
+  let RGBFondo = "rgb(" + (Math.random() * 360) + "," + (Math.random() * 360) + "," + (Math.random() * 360) + ")";
 
-let miCirculoMultiple = new Circle(randomX, randomY, randomRadius, RGBBorde, i + 1, RGBFondo, "rgb(34, 174, 199)");
+  let miCirculoMultiple = new Circle(randomX, randomY, randomRadius, RGBBorde, i + 1, RGBFondo, "rgb(34, 174, 199)");
 
   arrayCircle.push(miCirculoMultiple);
   arrayCircle[i].draw(ctxMultiple);
